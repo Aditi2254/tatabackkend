@@ -2,11 +2,12 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import json
 import traceback
+from material_recommender_model import recommend_material
+from part_name_material import recommend_materials
 
-app = Flask(__name__)
+app = Flask(_name_)
 CORS(app)
 
-# Load alloy data from a JSON file
 try:
     with open('Alloy_Dataset.json', 'r') as f:
         alloy_data = json.load(f)
@@ -19,7 +20,7 @@ except Exception as e:
     alloy_data = []
 
 class AlloySelector:
-    def __init__(self, alloy_data):
+    def _init_(self, alloy_data):
         self.alloy_data = alloy_data
 
     def parse_range(self, range_str):
@@ -64,6 +65,10 @@ class AlloySelector:
         except Exception as e:
             print(f"Error explaining composition for alloy '{alloy.get('name', 'Unknown')}': {e}")
             return {}
+
+@app.route('/', methods=['GET'])
+def hello():
+    return jsonify({"message": "Hello, world!"})
 
 @app.route('/api/find-alloy', methods=['POST'])
 def find_alloy():
@@ -114,26 +119,20 @@ def available_properties():
         traceback.print_exc()
         return jsonify({"error": "Internal server error"}), 500
 
-@app.route('/api/recommend', methods=['GET'])
+@app.route('/api/recommend', methods=['POST'])
 def recommend():
-    try:
-        # Dummy endpoint for demonstration
-        return jsonify({"message": "Recommendation feature coming soon!"})
-    except Exception as e:
-        print(f"Error in '/api/recommend' endpoint: {e}")
-        traceback.print_exc()
-        return jsonify({"error": "Internal server error"}), 500
+    data = request.json
+    user_input = data.get('properties', {})
+    recommendations = recommend_material(user_input)
+    return jsonify(recommendations.to_dict(orient='records'))
 
 @app.route('/api/part-name', methods=['POST'])
-def part_name():
-    try:
-        # Another dummy endpoint for demonstration
-        return jsonify({"message": "Part name feature coming soon!"})
-    except Exception as e:
-        print(f"Error in '/api/part-name' endpoint: {e}")
-        traceback.print_exc()
-        return jsonify({"error": "Internal server error"}), 500
+def recommend_top_sustainable():
+    data = request.json
+    part_name = data.get('part_name', "")
+    top_sustainable_recommendations = recommend_materials(part_name)
+    return jsonify(top_sustainable_recommendations)
 
-if __name__ == '__main__':
+if _name_ == '_main_':
     print("Starting Flask server...")
     app.run(debug=True)
