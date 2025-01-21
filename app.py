@@ -2,8 +2,8 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import json
 import traceback
-from material_recommender_model import recommend_material
-from part_name_material import recommend_materials
+from src.material_recommender_model import recommend_material
+from src.part_name_material import recommend_materials
 
 app = Flask(__name__)
 CORS(app)

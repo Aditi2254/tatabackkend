@@ -1,5 +1,5 @@
-from dataset_preprocessing import load_material_data, preprocess_data
-from utils import filter_materials
+from src.dataset_preprocessing import load_material_data, preprocess_data
+from src.utils import filter_materials
 
 def recommend_material(user_input):
     df = load_material_data()
