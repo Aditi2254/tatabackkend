@@ -34,7 +34,7 @@
       "puncture_resistance": 70,
       "energy_absorption": 85,
       "recommended_parts": [
-        "Chassis",
+        "chassis",
         "Body",
         "Roof",
         "Seatbelts",
@@ -125,7 +125,7 @@
       "puncture_resistance": 75,
       "energy_absorption": 90,
       "recommended_parts": [
-        "Chassis",
+        "chassis",
         "Body",
         "Roof",
         "Sidebars",
@@ -216,7 +216,7 @@
       "puncture_resistance": 55,
       "energy_absorption": 60,
       "recommended_parts": [
-        "Chassis",
+        "chassis",
         "Pillars",
         "Steering Wheel",
         "Tire Rim",
@@ -1061,7 +1061,7 @@
       "energy_absorption": 500,
       "recommended_parts": [
         "Body",
-        "Chassis",
+        "chassis",
         "Sidebars",
         "Door Post",
         "Roof",
@@ -1112,9 +1112,8 @@
         "structural components",
         "fasteners",
         "decorative trim",
-        "chassis components",
         "Body",
-        "Chassis",
+        "chassis",
         "Tire Rim",
         "Sidebars",
         "Door Post",
@@ -1166,7 +1165,7 @@
       "cost_effectiveness": 13,
       "recommended_parts": [
         "Body",
-        "Chassis",
+        "chassis",
         "Tire Rim",
         "Sidebars",
         "Door Post",
@@ -1212,7 +1211,7 @@
       "energy_absorption": 700,
       "recommended_parts": [
         "Body",
-        "Chassis",
+        "chassis",
         "Sidebars",
         "Door Post",
         "Roof",
@@ -1260,7 +1259,7 @@
       "energy_intensity": 0.8,
       "cost_effectiveness": 80,
       "recommended_parts": [
-        "Chassis",
+        "chassis",
         "Shield",
         "Roof",
         "Tire Rim",
@@ -1356,7 +1355,7 @@
       "cost_effectiveness": 85,
       "recommended_parts": [
         "Body",
-        "Chassis",
+        "chassis",
         "Roof",
         "Shield",
         "Tire Rim",
@@ -1403,7 +1402,7 @@
       "cost_effectiveness": 80,
       "recommended_parts": [
         "Body",
-        "Chassis",
+        "chassis",
         "Shield",
         "Roof",
         "Sidebars",
@@ -1449,7 +1448,7 @@
       "energy_intensity": 1.1,
       "cost_effectiveness": 85,
       "recommended_parts": [
-        "Chassis",
+        "chassis",
         "Shield",
         "Body",
         "Roof",
@@ -1497,7 +1496,7 @@
       "energy_intensity": 1,
       "cost_effectiveness": 80,
       "recommended_parts": [
-        "Chassis",
+        "chassis",
         "Body",
         "Roof",
         "Shield",
@@ -1548,7 +1547,7 @@
       "recommended_parts": [
         "Body",
         "Roof",
-        "Chassis",
+        "chassis",
         "Tire Rim",
         "Sidebars",
         "Door Post",
@@ -1591,7 +1590,7 @@
       "puncture_resistance": 50,
       "energy_absorption": 220,
       "recommended_parts": [
-        "Chassis",
+        "chassis",
         "Sidebars",
         "Door Post"
       ],
@@ -1633,7 +1632,7 @@
       "puncture_resistance": 55,
       "energy_absorption": 150,
       "recommended_parts": [
-        "Chassis",
+        "chassis",
         "Tire Rim",
         "Shield",
         "Roof",
@@ -1680,7 +1679,7 @@
       "puncture_resistance": 52,
       "energy_absorption": 160,
       "recommended_parts": [
-        "Chassis",
+        "chassis",
         "Tire Rim",
         "Shield",
         "Roof",
@@ -1727,7 +1726,7 @@
       "puncture_resistance": 60,
       "energy_absorption": 170,
       "recommended_parts": [
-        "Chassis",
+        "chassis",
         "Tire Rim",
         "Body"
       ],
@@ -1769,7 +1768,7 @@
       "puncture_resistance": 75,
       "energy_absorption": 240,
       "recommended_parts": [
-        "Chassis",
+        "chassis",
         "Tire Rim",
         "Shield",
         "Roof",
@@ -1818,7 +1817,7 @@
       "puncture_resistance": 78,
       "energy_absorption": 280,
       "recommended_parts": [
-        "Chassis",
+        "chassis",
         "Shield",
         "Side Mirror",
         "Header Panel",
@@ -1862,7 +1861,7 @@
       "puncture_resistance": 75,
       "energy_absorption": 240,
       "recommended_parts": [
-        "Chassis",
+        "chassis",
         "Header Panel",
         "Sidebars"
       ],
@@ -1904,7 +1903,7 @@
       "puncture_resistance": 70,
       "energy_absorption": 220,
       "recommended_parts": [
-        "Chassis",
+        "chassis",
         "Shield",
         "Tire Rim",
         "Sidebars",
@@ -1951,7 +1950,7 @@
         "Header Panel",
         "Sidebars",
         "Tire Rim",
-        "Chassis",
+        "chassis",
         "Shield",
         "NumberPlate"
       ],
@@ -1994,7 +1993,7 @@
       "energy_absorption": 200,
       "recommended_parts": [
         "Body",
-        "Chassis",
+        "chassis",
         "Shield",
         "Header Panel",
         "Sidebars",
@@ -2039,7 +2038,7 @@
       "energy_absorption": 180,
       "recommended_parts": [
         "Tire Rim",
-        "Chassis",
+        "chassis",
         "Door Post",
         "NumberPlate",
         "Sidebars",
@@ -2084,7 +2083,7 @@
       "energy_absorption": 170,
       "recommended_parts": [
         "Tire Rim",
-        "Chassis",
+        "chassis",
         "Shield",
         "NumberPlate",
         "Side Mirror",
@@ -2309,7 +2308,7 @@
         "Shield",
         "Door Post",
         "Roof",
-        "Chassis",
+        "chassis",
         "Sidebars"
       ],
       "toxicity": 30,
@@ -2483,7 +2482,7 @@
       "energy_absorption": 220,
       "recommended_parts": [
         "Body",
-        "Chassis",
+        "chassis",
         "Side Mirror",
         "Seats",
         "Seatbelts",
@@ -2573,7 +2572,7 @@
       "puncture_resistance": 70,
       "energy_absorption": 300,
       "recommended_parts": [
-        "Chassis",
+        "chassis",
         "Shield",
         "Sidebars",
         "Side Mirror",
@@ -2618,7 +2617,7 @@
       "puncture_resistance": 75,
       "energy_absorption": 350,
       "recommended_parts": [
-        "Chassis",
+        "chassis",
         "Shield",
         "Sidebars",
         "Roof"
@@ -2664,7 +2663,7 @@
         "Body",
         "Shield",
         "Roof",
-        "Chassis",
+        "chassis",
         "Sidebars",
         "Door Post",
         "Seats",
@@ -2711,7 +2710,7 @@
         "Body",
         "Shield",
         "Roof",
-        "Chassis",
+        "chassis",
         "Sidebars",
         "Door Post",
         "Seats",
@@ -2758,7 +2757,7 @@
         "Body",
         "Shield",
         "Roof",
-        "Chassis",
+        "chassis",
         "Sidebars",
         "Door Post",
         "Seats",
@@ -2803,7 +2802,7 @@
       "energy_absorption": 450,
       "recommended_parts": [
         "Shield",
-        "Chassis",
+        "chassis",
         "Sidebars",
         "Door Post",
         "Seats",
@@ -2850,7 +2849,7 @@
         "Body",
         "Shield",
         "Roof",
-        "Chassis",
+        "chassis",
         "Sidebars",
         "Door Post",
         "Seats",
@@ -3533,7 +3532,7 @@
         "Body",
         "Shield",
         "Roof",
-        "Chassis",
+        "chassis",
         "Seats"
       ]
     },
@@ -3707,7 +3706,7 @@
         "Brake Rotors",
         "Engine Blocks",
         "Cylinder Heads",
-        "Chassis",
+        "chassis",
         "Shield",
         "Tire Rim"
       ],
@@ -3752,7 +3751,7 @@
         "Suspension Springs",
         "Connecting Rods",
         "Gears",
-        "Chassis",
+        "chassis",
         "Shield",
         "Tire Rim",
         "Sidebars",
@@ -3800,7 +3799,7 @@
         "Door Beams",
         "Bumper Reinforcements",
         "Body",
-        "Chassis",
+        "chassis",
         "Shield",
         "Door Post",
         "Sidebars"
@@ -3848,7 +3847,7 @@
         "Transmission Housings",
         "Tire Rim",
         "Body",
-        "Chassis",
+        "chassis",
         "Shield",
         "Header Panel"
       ],
@@ -3893,7 +3892,7 @@
         "Engine valves",
         "Precision instruments",
         "Seismic creep gauges",
-        "Chassis",
+        "chassis",
         "Shield",
         "Sidebars"
       ],
@@ -3941,7 +3940,7 @@
         "Body",
         "Roof",
         "Shield",
-        "Chassis",
+        "chassis",
         "Header Panel"
       ],
       "toxicity": 5,
@@ -4034,7 +4033,7 @@
         "hoods",
         "Body",
         "Roof",
-        "Chassis",
+        "chassis",
         "Shield"
       ],
       "toxicity": 20,
@@ -4351,7 +4350,7 @@
         "nuclear fuel cladding",
         "engine components",
         "exhaust systems",
-        "Chassis",
+        "chassis",
         "Shield",
         "Body"
       ],
@@ -4573,7 +4572,7 @@
       "puncture_resistance": 80,
       "energy_absorption": 35,
       "recommended_parts": [
-        "Chassis",
+        "chassis",
         "Shield",
         "Side Mirror",
         "marine hardware",
@@ -4618,7 +4617,7 @@
       "puncture_resistance": 45,
       "energy_absorption": 300,
       "recommended_parts": [
-        "Chassis",
+        "chassis",
         "Shield",
         "Side Mirror",
         "Propeller shafts",
@@ -4662,7 +4661,7 @@
       "puncture_resistance": 60,
       "energy_absorption": 500,
       "recommended_parts": [
-        "Chassis",
+        "chassis",
         "Shield",
         "Wiper",
         "Drill bits",
@@ -4709,7 +4708,7 @@
       "recommended_parts": [
         "Shield",
         "Side Mirror",
-        "Chassis",
+        "chassis",
         "Electrical connectors",
         "Springs",
         "Non-sparking tools"
@@ -5028,7 +5027,7 @@
       "puncture_resistance": 6,
       "energy_absorption": 7,
       "recommended_parts": [
-        "Chassis",
+        "chassis",
         "Body",
         "Shield",
         "Tire Rim"
@@ -5072,7 +5071,7 @@
       "energy_absorption": 5,
       "recommended_parts": [
         "Shield",
-        "Chassis",
+        "chassis",
         "Body",
         "Engine nozzles",
         "brake systems"
@@ -5115,7 +5114,7 @@
       "puncture_resistance": 3,
       "energy_absorption": 3,
       "recommended_parts": [
-        "Chassis",
+        "chassis",
         "Body",
         "Shield",
         "Tire Rim",
@@ -5159,7 +5158,7 @@
       "puncture_resistance": 2,
       "energy_absorption": 3,
       "recommended_parts": [
-        "Chassis",
+        "chassis",
         "Body",
         "Shield",
         "Tire Rim"
@@ -5204,7 +5203,7 @@
       "recommended_parts": [
         "Body",
         "Shield",
-        "Chassis",
+        "chassis",
         "Tire Rim"
       ],
       "toxicity": 3,
@@ -5246,7 +5245,7 @@
       "energy_absorption": 5,
       "recommended_parts": [
         "Shield",
-        "Chassis",
+        "chassis",
         "Body"
       ],
       "toxicity": 3,
