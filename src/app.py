@@ -5,7 +5,7 @@ import traceback
 from material_recommender_model import recommend_material
 from part_name_material import recommend_materials
 
-app = Flask(_name_)
+app = Flask(__name__)
 CORS(app)
 
 try:
@@ -20,7 +20,7 @@ except Exception as e:
     alloy_data = []
 
 class AlloySelector:
-    def _init_(self, alloy_data):
+    def __init__(self, alloy_data):
         self.alloy_data = alloy_data
 
     def parse_range(self, range_str):
@@ -133,6 +133,6 @@ def recommend_top_sustainable():
     top_sustainable_recommendations = recommend_materials(part_name)
     return jsonify(top_sustainable_recommendations)
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     print("Starting Flask server...")
     app.run(debug=True)
